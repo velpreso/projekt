@@ -1,13 +1,13 @@
 import numpy as np
 #funkcja preprocessing
 def parametry_sterujace():
-    global c, f, xa, xb, n, z, wezly, elementy; 
+    global c, f, xa, xb, lw, z, wezly, elementy; 
     global twb_L, twb_P, wwb_L, wwb_P;
     c=0;
     f=0;
     xa=0; #poczatek przedzialu
     xb=1; #koniec przedzialu
-    n=10; #liczba wezlow
+    lw=10; #liczba wezlow
     z=n-1; #liczba elementow
     
     #tablica wezlow
